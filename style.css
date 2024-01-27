@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assests/images/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage {
+    width: 50%;
+    height: 70%;
+    gap: 30px;
+    background-color: #86868652;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+}
+
+.loginpage h1 {
+    font-size: 60px;
+}
+
+.login_details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+
+}
+
+.password {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+
+.password p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 15px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15px;
+   
+
+}
+button{
+    padding: 10px 25px;
+    border-style: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient( rgb(160, 159, 159),pink);
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
